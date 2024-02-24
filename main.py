@@ -22,6 +22,7 @@ class Line:
         #                             sqrt(self.vector[0] ** 2 + self.vector[1] ** 2), 1))
         # self.end_point = self.end_point[::-1]
 
+
 class Engine:
     def __init__(self):
         self.figures = [Line([1, 1, -1], 5, [0, 0, 0])]
